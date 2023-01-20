@@ -6,4 +6,7 @@ npm-debug.log*
 yarn-error.log
 yarn.lock
 package-lock.json
-
+# index.js
+# js.js
+# react.js
+# ts.js

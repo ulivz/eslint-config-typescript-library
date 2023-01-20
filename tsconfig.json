@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "strictNullChecks": false,
+    "strictFunctionTypes": true,
+    "incremental": false,
+    "noUncheckedIndexedAccess": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowJs": false,
+    "alwaysStrict": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": false,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "outDir": "./",
+    "sourceMap": false,
+    "target": "ES2019",
+    "typeRoots": ["node_modules/@types", "types"],
+    "declaration": false,
+    "declarationMap": false,
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "lib": ["es5", "es6"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
