@@ -52,4 +52,4 @@ const TS_LINTER_CONFIG: TSESLint.Linter.Config = {
   },
 };
 
-module.exports = TS_LINTER_CONFIG;
+export = TS_LINTER_CONFIG;

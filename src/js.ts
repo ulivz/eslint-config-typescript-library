@@ -260,4 +260,4 @@ const JS_LINTER_CONFIG: TSESLint.Linter.Config = {
   },
 };
 
-export default JS_LINTER_CONFIG;
+export = JS_LINTER_CONFIG;

@@ -40,4 +40,4 @@ const REACT_LINTER_CONFIG: TSESLint.Linter.Config = {
   },
 };
 
-export default REACT_LINTER_CONFIG;
+export = REACT_LINTER_CONFIG;
