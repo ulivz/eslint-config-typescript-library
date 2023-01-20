@@ -5,8 +5,8 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
   ],
   settings: {
-    "import/resolver": {
-      typescript: {} // this loads <rootdir>/tsconfig.json to eslint
+    'import/resolver': {
+      typescript: {}, // this loads <rootdir>/tsconfig.json to eslint
     },
   },
   rules: {
@@ -29,22 +29,22 @@ module.exports = {
      * Disallow the declaration of empty interfaces
      * ref: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-empty-interface.md
      */
-    "@typescript-eslint/no-empty-interface": 0,
+    '@typescript-eslint/no-empty-interface': 0,
     /**
      * Enforce consistent indentation
      * ref: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/indent.md
      */
-    "@typescript-eslint/indent": ["error", 2],
+    '@typescript-eslint/indent': ['error', 2],
     /**
      * Disallows the use of require statements except in import statements
      * ref: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-var-requires.md
      */
-    "@typescript-eslint/no-var-requires": 0,
+    '@typescript-eslint/no-var-requires': 0,
     /**
      * Disallow the use of variables before they are defined
      * ref: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-use-before-define.md
      */
-    "@typescript-eslint/no-use-before-define": 0,
-  
+    '@typescript-eslint/no-use-before-define': 0,
+
   },
-}
+};
