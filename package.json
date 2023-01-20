@@ -17,7 +17,8 @@
   "scripts": {
     "bootstrap": "pnpm install --prefer-offline",
     "lint": "eslint -c .eslintrc.js *.js --ext .js",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "release": "quick-publish"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.48.2",
@@ -31,6 +32,7 @@
   },
   "devDependencies": {
     "eslint": "^8.32.0",
+    "quick-publish": "^0.6.0",
     "typescript": "4.9.4"
   },
   "files": [
