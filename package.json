@@ -20,6 +20,7 @@
     "bootstrap": "pnpm install --prefer-offline",
     "lint": "eslint -c .eslintrc.js *.js --ext .js",
     "lint:fix": "npm run lint -- --fix",
+    "prepublishOnly": "npm run build",
     "release": "quick-publish"
   },
   "dependencies": {
