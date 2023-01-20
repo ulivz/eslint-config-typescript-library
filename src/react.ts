@@ -3,11 +3,11 @@
  * Copyright (c) ULIVZ. All Rights Reserved.
  */
 
-import { TSESLint } from "@typescript-eslint/utils";
+import { TSESLint } from '@typescript-eslint/utils';
 
 const REACT_LINTER_CONFIG: TSESLint.Linter.Config = {
-  extends: [require.resolve("./js"), "plugin:react/recommended"],
-  plugins: ["react", "react-hooks"],
+  extends: [require.resolve('./js'), 'plugin:react/recommended'],
+  plugins: ['react', 'react-hooks'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -16,14 +16,14 @@ const REACT_LINTER_CONFIG: TSESLint.Linter.Config = {
   },
   settings: {
     react: {
-      createClass: "createReactClass", // Regex for Component Factory to use,
+      createClass: 'createReactClass', // Regex for Component Factory to use,
       // default to "createReactClass"
-      pragma: "React", // Pragma to use, default to "React"
-      version: "detect", // React version. "detect" automatically picks the version you have installed.
+      pragma: 'React', // Pragma to use, default to "React"
+      version: 'detect', // React version. "detect" automatically picks the version you have installed.
       // You can also use `16.0`, `16.3`, etc, if you want to override the detected value.
       // default to latest and warns if missing
       // It will default to "detect" in the future
-      flowVersion: "0.53", // Flow version
+      flowVersion: '0.53', // Flow version
     },
   },
   rules: {
@@ -31,12 +31,12 @@ const REACT_LINTER_CONFIG: TSESLint.Linter.Config = {
      * Restrict file extensions that may contain JSX
      * ref: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
      */
-    "react/jsx-filename-extension": ["warn"],
+    'react/jsx-filename-extension': ['warn'],
     /**
      * Validate JSX indentation
      * ref: https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-indent.md
      */
-    "react/jsx-indent": ["warn"],
+    'react/jsx-indent': ['warn'],
   },
 };
 

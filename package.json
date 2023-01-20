@@ -18,7 +18,7 @@
     "dev": "tsc -w",
     "build": "tsc",
     "bootstrap": "pnpm install --prefer-offline",
-    "lint": "eslint -c .eslintrc.js *.js --ext .js",
+    "lint": "eslint -c .eslintrc.js src/*.ts --ext .js,.ts",
     "lint:fix": "npm run lint -- --fix",
     "prepublishOnly": "npm run build",
     "release": "quick-publish"

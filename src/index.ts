@@ -1,7 +1,7 @@
 export = {
   extends: [
-    require.resolve("./js"),
-    require.resolve("./ts"),
-    require.resolve("./react"),
+    require.resolve('./js'),
+    require.resolve('./ts'),
+    require.resolve('./react'),
   ],
 };
