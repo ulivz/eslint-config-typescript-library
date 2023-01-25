@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/ulivz/eslint-config-typescript-library/compare/v0.2.1...v0.2.2) (2023-01-25)
+
+
+### Bug Fixes
+
+* make typescript no-unused-vars work ([cf511f1](https://github.com/ulivz/eslint-config-typescript-library/commit/cf511f18add0ab74751c1cf1677f64a3e0be567f))
+
+
+
 ## [0.2.1](https://github.com/ulivz/eslint-config-typescript-library/compare/v0.2.0...v0.2.1) (2023-01-20)
 
 
