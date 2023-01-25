@@ -49,6 +49,11 @@ const TS_LINTER_CONFIG: TSESLint.Linter.Config = {
      * ref: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-use-before-define.md
      */
     '@typescript-eslint/no-use-before-define': 0,
+    /**
+     * ref: https://typescript-eslint.io/rules/no-unused-vars/
+     */
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'warn',
   },
 };
 
