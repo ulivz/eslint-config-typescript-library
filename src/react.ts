@@ -6,7 +6,7 @@
 import { TSESLint } from '@typescript-eslint/utils';
 
 const REACT_LINTER_CONFIG: TSESLint.Linter.Config = {
-  extends: [require.resolve('./js'), 'plugin:react/recommended'],
+  extends: ['plugin:react/recommended'],
   plugins: ['react', 'react-hooks'],
   parserOptions: {
     ecmaFeatures: {
