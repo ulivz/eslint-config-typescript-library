@@ -1,3 +1,12 @@
+## [0.2.4](https://github.com/ulivz/eslint-config-typescript-library/compare/v0.2.3...v0.2.4) (2023-01-26)
+
+
+### Bug Fixes
+
+* root config doesn't work for some cases (related: [#1](https://github.com/ulivz/eslint-config-typescript-library/issues/1)) ([83b0194](https://github.com/ulivz/eslint-config-typescript-library/commit/83b0194b9acf5938b1a38f0dc8071f2a08a33b8a))
+
+
+
 ## [0.2.3](https://github.com/ulivz/eslint-config-typescript-library/compare/v0.2.2...v0.2.3) (2023-01-26)
 
 
