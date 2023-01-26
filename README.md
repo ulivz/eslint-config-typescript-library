@@ -28,7 +28,7 @@ module.exports = {
 };
 ```
 
-This enable lint for both `js`、`ts` and `react`! you'll also need `typescript` as a devDependnecy at your project.
+This enable lint for both `js`、`ts` and `react`! you'll also need `typescript` as a devDependency at your project.
 
 ## Lint TypeScript
 
