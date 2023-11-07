@@ -24,6 +24,7 @@
     "declarationMap": false,
     "resolveJsonModule": true,
     "downlevelIteration": true,
+    "skipLibCheck": true,
     "lib": ["es5", "es6"]
   },
   "include": ["src"],

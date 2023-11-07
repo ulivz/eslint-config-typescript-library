@@ -3,7 +3,8 @@
  * Copyright (c) ULIVZ. All Rights Reserved.
  */
 
-import { TSESLint } from '@typescript-eslint/utils';
+// FIXME: why we cannot resolve `@typescript-eslint/utils` after bump it to 6.x
+import type { TSESLint } from '@typescript-eslint/utils/dist/index';
 
 const TS_LINTER_CONFIG: TSESLint.Linter.Config = {
   parser: '@typescript-eslint/parser',

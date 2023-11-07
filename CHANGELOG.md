@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/ulivz/eslint-config-typescript-library/compare/v0.2.4...v0.3.0) (2023-11-07)
+
+
+### Features
+
+* bump `@typescript-eslint/eslint-plugin` and `@typescript-eslint/parser` to support typescript 5.x ([#2](https://github.com/ulivz/eslint-config-typescript-library/issues/2)) ([9eb3825](https://github.com/ulivz/eslint-config-typescript-library/commit/9eb3825a4fdda1d36cce9dcd190f2d638f893ed1))
+
+
+
 ## [0.2.4](https://github.com/ulivz/eslint-config-typescript-library/compare/v0.2.3...v0.2.4) (2023-01-26)
 
 
