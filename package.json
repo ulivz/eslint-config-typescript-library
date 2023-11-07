@@ -24,21 +24,21 @@
     "release": "quick-publish"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.48.2",
-    "@typescript-eslint/parser": "5.48.2",
+    "@typescript-eslint/eslint-plugin": "6.10.0",
+    "@typescript-eslint/parser": "6.10.0",
     "eslint-config-airbnb-base": "15.0.0",
-    "eslint-import-resolver-typescript": "3.5.3",
+    "eslint-import-resolver-typescript": "3.6.1",
     "eslint-plugin-financial": "0.1.0",
-    "eslint-plugin-import": "2.27.5",
-    "eslint-plugin-react": "7.32.1",
+    "eslint-plugin-import": "2.29.0",
+    "eslint-plugin-react": "7.33.2",
     "eslint-plugin-react-hooks": "4.6.0"
   },
   "devDependencies": {
-    "@types/eslint": "^8.4.10",
-    "@types/node": "^18.11.18",
-    "eslint": "^8.32.0",
-    "quick-publish": "^0.6.0",
-    "typescript": "4.9.4"
+    "@types/eslint": "^8.44.7",
+    "@types/node": "^20.8.10",
+    "eslint": "^8.53.0",
+    "quick-publish": "^0.7.1",
+    "typescript": "5.2.2"
   },
   "files": [
     "index.js",
